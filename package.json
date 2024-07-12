@@ -1,0 +1,35 @@
+{
+  "name": "chaoswise-purewise5",
+  "packageName": "chaoswisePurewise5",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@chaoswise/business": "^1.0.3",
+    "@chaoswise/cw-mobx": "^0.0.16",
+    "@chaoswise/intl": "^2.1.3",
+    "@chaoswise/request": "^1.2.6",
+    "@chaoswise/scaffold": "^1.1.7",
+    "@chaoswise/ui": "^2.5.9",
+    "@chaoswise/utils": "^0.0.35",
+    "antd": "^3.26.20",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "single-spa-react": "^4.1.1"
+  },
+  "scripts": {
+    "start": "chaoswise-scripts dev",
+    "build": "chaoswise-scripts build",
+    "analyze": "chaoswise-scripts analyze",
+    "test": "node scripts/test.js",
+    "cicd": "chaoswise-cicd",
+    "intl-init": "chaoswise-intl init",
+    "intl-collect": "chaoswise-intl collect",
+    "intl-update": "chaoswise-intl update",
+    "intl-addLocale": "chaoswise-intl addLocale"
+  },
+  "browserslist": [
+    ">0.2%"
+  ]
+}
